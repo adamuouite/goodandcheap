@@ -2,230 +2,258 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
-  <script type="text/javascipt" src=".vscode/main.js">
-  </script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="pageable.js"></script>
+    <script type="text/javascript" src="front-end.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="front-end.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascipt" src=".vscode/main.js">
+    </script>
 
-  <title>GoodandCheap</title>
+    <title>GoodandCheap</title>
+    <meta name="generator" content="Silex v2.2.7">
+    <style class="silex-inline-styles" type="text/css">
+        .silex-id-1610476446453-0 {
+            min-width: 100%;
+        }
+    </style>
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"silex-id-1610476446453-0":{"min-width":"100%"}},"mobile":{},"componentData":{}}]
+    </script>
+    <style type="text/css" class="silex-style"></style>
+    <script type="text/javascript" class="silex-script"></script>
+
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
 </head>
 
-<body>
+<body class="container-element silex-id-1610476446453-0 silex-runtime" data-silex-type="container" data-silex-id="silex-id-1610476446453-0">
 
-  <nav>
-    <ul class="main">
-      <li>
-        <ul class="nav-left ban">
-          <li>
-            <a href="index.html">
-              <img class="logo" src="img/header/Good&Cheap.svg" alt="GoodandCheap">
-            </a>
-          </li>
-          <li>
-            <span id="search-icon">
+    <nav>
+        <ul class="main">
+            <li>
+                <ul class="nav-left ban">
+                    <li>
+                        <a href="index.html">
+                            <img class="logo" src="img/header/Good&amp;Cheap.svg" alt="GoodandCheap">
+                        </a>
+                    </li>
+                    <li>
+                        <span id="search-icon">
               <img class="search" src="img/header/search-icon.svg">
             </span>
-            <input class="searchbar" type="search" placeholder="Search..">
-          </li>
-        </ul>
-      </li>
+                        <input class="searchbar" type="search" placeholder="Search..">
+                    </li>
+                </ul>
+            </li>
 
-      <li>
-        <ul class="nav-mid">
-          <li>
-            <a><button class="home-btn" href="index.html">
+            <li>
+                <ul class="nav-mid">
+                    <li>
+                        <a><button class="home-btn" href="index.html">
                 <img src="img/header/home-icon.svg" alt="Home">
               </button></a>
-          </li>
-          <li>
-            <a><button class="howto-btn">
+                    </li>
+                    <li>
+                        <a><button class="howto-btn">
                 <img src="img/header/howto-icon.svg">
               </button></a>
-          </li>
-          <li>
-            <button class="shop-btn">
+                    </li>
+                    <li>
+                        <button class="shop-btn">
               <img src="img/header/shop-icon.svg">
             </button>
-            <ul class="dropdown">
-              <a class="dropdown-item"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item"></a>
-            </ul>
-          </li>
+                        <ul class="dropdown">
+                            <a class="dropdown-item"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"></a>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <ul class="nav-right ban">
+                    <li class="bell-btn">
+                        <img src="img/header/cart-icon.svg" alt="shopping list">
+                        <ul class="dropdown">
+                            <a class="dropdown-item"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"></a>
+                        </ul>
+                    </li>
+
+                    <li class="bell-btn">
+                        <img src="img/header/notif-btn-inactive.svg" alt="notification">
+                        <div>
+                            <a class="dropdown-item"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item"></a>
+                        </div>
+                    </li>
+
+                    <li> <img src="img/header/acc-icon.svg" alt="account">
+                        <ul class="registered">
+                            <li class="dropmenu-acc">
+                                <a class="dropdown-item">
+                                    <h5>Account Settings</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item"></a>
+                            </li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item"></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
-      </li>
+    </nav>
 
-      <li>
-        <ul class="nav-right ban">
-          <li class="bell-btn">
-            <img src="img/header/cart-icon.svg" alt="shopping list">
-            <ul class="dropdown">
-              <a class="dropdown-item"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item"></a>
-            </ul>
-          </li>
 
-          <li class="bell-btn">
-            <img src="img/header/notif-btn-inactive.svg" alt="notification">
-            <div>
-              <a class="dropdown-item"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item"></a>
+
+
+
+
+
+
+
+    <div class="h2">
+        <div class="h2_0000">
+
+            <div class="h2_0001">
+                <h1 class="h2_1001">Snip That Good Price Before Anyone Else!</h1>
             </div>
-          </li>
 
-          <li> <img src="img/header/acc-icon.svg" alt="account">
-            <ul class="registered">
-              <li class="dropmenu-acc">
-                <a class="dropdown-item">
-                  <h5>Account Settings</h5>
-                </a>
-              </li>
-              <li>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item"></a>
-              </li>
-              <li>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item"></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+            <div class="h2_0002">
 
-
-
-
-
-
-
-
-
-  <div class="h2">
-    <div class="h2_0000">
-
-      <div class="h2_0001">
-        <h1 class="h2_1001">Snip That Good Price Before Anyone Else!</h1>
-      </div>
-
-      <div class="h2_0002">
-
-        <span class="h2_2001">
+                <span class="h2_2001">
           <img class="h2_2101" src="img/ware/product1.png" alt="Product"></span>
 
-        <span class="h2_2002">Pure&percnt; Essentieal Oil Set</span>
+                <span class="h2_2002">Pure% Essentieal Oil Set</span>
 
-        <p class="h2_2003">1:08:24:58</p>
+                <p class="h2_2003">1:08:24:58</p>
 
-        <span class="h2_2004">
+                <span class="h2_2004">
           <p class="h2_2401">140</p>
           <img class="h2_2402" src="img/main_btns/watchers.svg" alt="Watchers">
         </span>
 
-        <span class="h2_2005">
+                <span class="h2_2005">
           <p class="h2_2501">50</p>
           <img class="h2_2502" src="img/main_btns/bids.svg" alt="Bids">
         </span>
 
-        <div class="h2_2006">
-          <button class="h2_2601">
+                <div class="h2_2006">
+                    <button class="h2_2601">
             <img class="h2_2611" src="img/main_btns/add-cart.svg" alt="">
           </button>
 
-          <button class="h2_2602">
+                    <button class="h2_2602">
             <img class="h2_2621" src="img/main_btns/add-watchlist.svg" alt="">
           </button>
 
-          <button class="h2_2603">
+                    <button class="h2_2603">
             <img class="h2_2631" src="img/main_btns/add-favorite.svg" alt="">
           </button>
+                </div>
+
+                <div class="h2_2007">
+                    <form class="h2_2701">
+                        <fieldset class="h2_2711">
+                            <button class="h2_2711_0001" title="ops!">−</button>
+                            <input class="h2_2711_0002" type="text" name="h2_2702" pattern="[0-9]+" min="0" max="20" maxlength="3" placeholder="20">
+                            <button class="h2_2711_0003" title="increase bid">+</button>
+                        </fieldset>
+                        <input class="h2_2712" type="image" src="img/main_btns/submitbid.svg">
+                    </form>
+                </div>
+
+            </div>
         </div>
-
-        <div class="h2_2007">
-          <form class="h2_2701">
-            <fieldset class="h2_2711">
-              <button class="h2_2711_0001" title="ops!">&minus;</button>
-              <input class="h2_2711_0002" type="text" name="h2_2702" pattern="[0-9]+" min="0" max="20" maxlength="3" placeholder="20">
-              <button class="h2_2711_0003" title="increase bid">&plus;</button>
-            </fieldset>
-            <input class="h2_2712" type="image" src="img/main_btns/submitbid.svg">
-          </form>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-  <div class="f3_0000">
-    <div class="f3_0001">
-      <div class="f3_1001">
-        <h5 class="f3_1101">Follow Us</h5>
-
-        <div class="f3_1102">
-          <a class="f3_1121" href="facebook.com/goodandcheap">
-            <img class="f3_1121_0001" src="img/footer/icon-facebook.svg" alt="Facebook"></a>
-          <a class="f3_1122" href="instagram.com/goodandcheap">
-            <img class="f3_1122_0001" src="img/footer/insta.svg" alt="Instagram"></a>
-          <a class="f3_1123" href="youtube.com/goodandcheap">
-            <img class="f3_1123_0001" src="img/footer/youtube.svg" alt="Youtube"></a>
-        </div>
-      </div>
-
-      <div class="f3_1002">
-        <h4 class="f3_1201">Information</h4>
-
-        <a class="f3_1202">
-          <h6>About Us</h6>
-        </a>
-        <a class="f3_1203">
-          <h6>Get in Touch</h6>
-        </a>
-        <a class="f3_1204">
-          <h6>How Does It Work</h6>
-        </a>
-        <a class="f3_1205">
-          <h6>Social Responsibility</h6>
-        </a>
-        <a class="f3_1206">
-          <h6>FAQ</h6>
-        </a>
-      </div>
-
-      <div class="f3_1003">
-        <h5 class="f3_1301">Give us A Call</h5>
-        <h1 class="f3_1302">+43(0)6508986238</h1>
-      </div>
-
-      <div class="f3_1004">
-        <a class="f3_1401">Privacy Policy</a>
-        <a class="f3_1402">Terms ofService</a>
-        <a class="f3_1403">Cookies Policy</a>
-        <a class="f3_1404">Imprint</a>
-        <a class="f3_1405">GoodandCheap.at</a>
-      </div>
     </div>
 
-  </div>
+
+
+
+
+
+
+
+
+    <div class="f3_0000">
+        <div class="f3_0001">
+            <div class="f3_1001">
+                <h5 class="f3_1101">Follow Us</h5>
+
+                <div class="f3_1102">
+                    <a class="f3_1121" href="facebook.com/goodandcheap">
+                        <img class="f3_1121_0001" src="img/footer/icon-facebook.svg" alt="Facebook"></a>
+                    <a class="f3_1122" href="instagram.com/goodandcheap">
+                        <img class="f3_1122_0001" src="img/footer/insta.svg" alt="Instagram"></a>
+                    <a class="f3_1123" href="youtube.com/goodandcheap">
+                        <img class="f3_1123_0001" src="img/footer/youtube.svg" alt="Youtube"></a>
+                </div>
+            </div>
+
+            <div class="f3_1002">
+                <h4 class="f3_1201">Information</h4>
+
+                <a class="f3_1202">
+                    <h6>About Us</h6>
+                </a>
+                <a class="f3_1203">
+                    <h6>Get in Touch</h6>
+                </a>
+                <a class="f3_1204">
+                    <h6>How Does It Work</h6>
+                </a>
+                <a class="f3_1205">
+                    <h6>Social Responsibility</h6>
+                </a>
+                <a class="f3_1206">
+                    <h6>FAQ</h6>
+                </a>
+            </div>
+
+            <div class="f3_1003">
+                <h5 class="f3_1301">Give us A Call</h5>
+                <h1 class="f3_1302">+43(0)6508986238</h1>
+            </div>
+
+            <div class="f3_1004">
+                <a class="f3_1401">Privacy Policy</a>
+                <a class="f3_1402">Terms ofService</a>
+                <a class="f3_1403">Cookies Policy</a>
+                <a class="f3_1404">Imprint</a>
+                <a class="f3_1405">GoodandCheap.at</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="silex-pages">
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content"></div>
+    </div>
+
 
 </body>
 
