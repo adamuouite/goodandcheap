@@ -1049,23 +1049,23 @@
 
 @font-face {
   font-family: "Thin";
-  src: url(css/fonts/encode-sans/EncodeSansCondensed-Thin.eot);
-  src: url(css/fonts/encode-sans/EncodeSansCondensed-Thin.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.svg#EncodeSansCondensed-Thin) format("svg");
+  src: url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.eot);
+  src: url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Thin.svg#EncodeSansCondensed-Thin) format("svg");
 }
 @font-face {
   font-family: "Light";
-  src: url(css/fonts/encode-sans/EncodeSansSemiCondensed-Light.eot);
-  src: url(css/fonts/encode-sans/EncodeSansSemiCondensed-Light.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.svg#EncodeSansSemiCondensed-Light) format("svg");
+  src: url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.eot);
+  src: url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansSemiCondensed-Light.svg#EncodeSansSemiCondensed-Light) format("svg");
 }
 @font-face {
   font-family: "SemiBold";
-  src: url(css/fonts/encode-sans/EncodeSansCondensed-SemiBold.eot);
-  src: url(css/fonts/encode-sans/EncodeSansCondensed-SemiBold.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.svg#EncodeSansCondensed-SemiBold) format("svg");
+  src: url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.eot);
+  src: url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansCondensed-SemiBold.svg#EncodeSansCondensed-SemiBold) format("svg");
 }
 @font-face {
   font-family: "Black";
-  src: url(css/fonts/encode-sans/EncodeSansCondensed-Black.eot);
-  src: url(css/fonts/encode-sans/EncodeSansCondensed-Black.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.svg#EncodeSansCondensed-Black) format("svg");
+  src: url(scss/fonts/encode-sans/EncodeSansCondensed-Black.eot);
+  src: url(scss/fonts/encode-sans/EncodeSansCondensed-Black.eot?#iefix) format("embedded-opentype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.woff2) format("woff2"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.woff) format("woff"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.ttf) format("truetype"), url(scss/fonts/encode-sans/EncodeSansCondensed-Black.svg#EncodeSansCondensed-Black) format("svg");
 }
 html {
   --maxWidth: 1600px;
